@@ -1,0 +1,14 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	transition: 1s;
+	background-color: black;
+	font-family: 'Lato';
+}
+
+.viewport{
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	position: relative;
+}

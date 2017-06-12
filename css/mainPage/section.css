@@ -1,0 +1,105 @@
+
+.section{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0px;
+}
+
+#section0{
+	z-index: 4;
+}
+
+#section1{
+	z-index: 3;
+}
+
+#section2{
+	z-index: 2;
+}
+
+#section3{
+	z-index: 1;
+}
+
+.section_background{
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 130vw 130vh;
+	position: static;
+}
+
+.section_icons_wrapper{
+	color: white;
+	height: 20vh;
+}
+
+.section-icons_wrapper-element{
+	width: 20vw;
+	display: inline-block;
+	margin-left: 3vw;
+	float: left;
+	text-align: center;
+	font-size: 5vh;
+	line-height: 4.5vh;
+	transition: 0.8s;
+	opacity: 0;
+	text-shadow: 1px 1px 1000px white;
+}
+
+.section-icons_wrapper-element:nth-child(1){
+	margin-top: 3vh;
+}
+
+.section-icons_wrapper-element:nth-child(2){
+	margin-top: 3vh;
+}
+
+.section-icons_wrapper-element:hover{
+	font-size: 6vh;
+	line-height: 5vh;
+	text-shadow: 1px 1px 90px white;
+}
+
+.section-icons_wrapper-element:nth-child(3) .more_text{
+	top: -4.7vh;
+}
+
+.section-icons_wrapper-element:nth-child(4) .more_text{
+	top: -4.7vh;
+}
+
+.section-icons_wrapper-element:hover .more_text{
+	font-size: 2.5vh;
+	top: 0px;
+}
+
+.section-icons_wrapper-element:hover .more_description{
+	opacity: 1;
+}
+
+.icon_text{
+	font-weight: 700;
+}
+
+.more_description{
+	font-size: 1.5vh;
+	font-family: "Ubuntu";
+	font-weight: 300;
+	line-height: 2vh;
+	margin-top: 0.5vh;
+	opacity: 0;
+	transition: 0.8s;
+}
+
+.more_text{
+	font-family: 'Ubuntu';
+	font-weight: 300;
+	font-size: 2vh;
+	transition: 0.8s;
+	position: relative;
+	top: -2.7vh;
+}
+

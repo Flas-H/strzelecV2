@@ -1,0 +1,22 @@
+
+.section_stripe{
+	background: linear-gradient(to right, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.78) 11%, rgba(0,0,0,0) 79%, rgba(0,0,0,0) 100%);
+	width: 1000vw;
+	height: 20vh;
+	position: relative;
+	top: 40vh;
+	right: 1100vw;
+	box-shadow: 1px 1px 76px 0px black;
+}
+
+.section_sectionTitle{
+	color: white;
+	position: relative;
+	font-size: 15vh;
+	width: 60vw;
+	left: 20vw;
+	text-align: center;
+	opacity: 0;
+	font-weight: 900;
+	text-shadow: 1px 1px 10000px white;
+}
