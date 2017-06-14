@@ -42,11 +42,11 @@
 	margin-left: 3vw;
 	float: left;
 	text-align: center;
-	font-size: 5vh;
-	line-height: 4.5vh;
+	font-size: 6vh;
+	line-height: 4.7vh;
 	transition: 0.8s;
 	opacity: 0;
-	text-shadow: 1px 1px 1000px white;
+	text-shadow: 1px 1px 200px white;
 }
 
 .section-icons_wrapper-element:nth-child(1){
@@ -61,6 +61,7 @@
 	font-size: 6vh;
 	line-height: 5vh;
 	text-shadow: 1px 1px 90px white;
+	transform: translateZ(0);
 }
 
 .section-icons_wrapper-element:nth-child(3) .more_text{
@@ -103,3 +104,50 @@
 	top: -2.7vh;
 }
 
+.section-text_wrapper{
+	width: 80vw;
+	height: 40vh;
+	margin-top: -3vh;
+	margin-left: 10vw;
+	color: white;
+	font-size: 2.5vh;
+	text-shadow: 1px 1px 120px white;
+}
+
+.text_left_column{
+	width: 47.5%;
+	height: 28vh;
+	text-align: left;
+	float: left;
+	margin-top: 1vh;
+	font-size: 2.7vh;
+	line-height: 3.3vh;
+	opacity: 0;
+}
+
+.text_right_column{
+	margin-left: 5%;
+	width: 47.5%;
+	height: 28vh;
+	text-align: right;
+	float:left;
+	opacity: 0;
+}
+
+.recru_more{
+	font-size: 2vh;
+	transition: 0.8s;
+	font-weight: 500;
+	width: 20vw;
+	height: 5vh;
+	margin-left: 50vw;
+	text-align: center;
+	clear: left;
+	opacity: 0;
+}
+
+.recru_more:hover{
+	font-size: 2.3vh;
+	font-weight: 700;
+	text-shadow: 1px 1px 80px white;
+}

@@ -69,6 +69,21 @@ function resetAnimationProp(stripe, text, time){
 				"opacity" : "0"	
 			});
 		}
+		
+		//TEXT SLIDE 2 RESET
+		if(slideNumber != 2){
+			$(".text_right_column").css({
+				"opacity" : "0"
+			});
+			
+			$(".text_left_column").css({
+				"opacity" : "0"
+			});
+			
+			$(".recru_more").css({
+				"opacity" : "0"
+			});
+		}
 	}, time);
 	
 }

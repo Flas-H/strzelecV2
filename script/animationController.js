@@ -19,19 +19,26 @@ window.addEventListener('DOMMouseScroll', moveToSlide);
 
 var slideSwapTime = 1000;
 var backgroundShiftTime = 2000;
-var stripeFadeInTime = 1000;
-var stripeTextFadeInTime = 1000;
-var stripeTextDuration = 1000;
-var stripeTextFadeOutTime = 1000;
-var stripeTextChangeSizeTime = 1000;
+
+//STRIPE
+var stripeFadeInTime = 0;
+var stripeTextFadeInTime = 0;
+var stripeTextDuration = 0;
+var stripeTextFadeOutTime = 0;
+var stripeTextChangeSizeTime = 0;
 var totalTitleAnimationTime = stripeFadeInTime +
 								stripeTextDuration +
 								stripeTextFadeOutTime +
 								stripeTextFadeOutTime +
 								stripeTextChangeSizeTime;
 								
-								
+//ICONS SLIDE 1					
 var iconsAnimationTime = 1000;
+
+//TEXT SLIDE 2
+var recruTextFadeInTime = 1000;
+var recruMoreButtonTime = 1000;
+var recruStartDelay = 500;
 
 var stripeTextChangeSizeDelta = 0.3;
 
@@ -67,9 +74,17 @@ function moveToSlide(e){
 			resetAnimationProp(previousStripe, previousTitleText, slideSwapTime);
 			
 			slideNumber++;
+			
+			//EXTRA ICONS ANIMATION IN SLIDE 1
 			if(slideNumber == 1){
 				setTimeout(function(){
 					animateIcons(iconsAnimationTime);
+				}, totalTitleAnimationTime);
+			}
+			//EXTRA TEXT ANIMATION IN SLIDE 2
+			else if(slideNumber == 2){
+				setTimeout(function(){
+					textFadeIn(recruTextFadeInTime, recruMoreButtonTime,recruStartDelay)
 				}, totalTitleAnimationTime);
 			}
 			else {
@@ -100,6 +115,12 @@ function moveToSlide(e){
 			if(slideNumber == 1){
 				setTimeout(function(){
 					animateIcons(iconsAnimationTime);
+				}, totalTitleAnimationTime);
+			}
+			//TEXT IN SLIDE 2 ANIAMTION
+			else if(slideNumber == 2){
+				setTimeout(function(){
+					textFadeIn(recruTextFadeInTime, recruMoreButtonTime, recruStartDelay)
 				}, totalTitleAnimationTime);
 			}
 			else {
