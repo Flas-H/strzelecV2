@@ -21,7 +21,7 @@ var slideSwapTime = 1000;
 var backgroundShiftTime = 2000;
 
 //STRIPE
-var stripeFadeInTime = 0;
+var stripeFadeInTime = 1000;
 var stripeTextFadeInTime = 0;
 var stripeTextDuration = 0;
 var stripeTextFadeOutTime = 0;

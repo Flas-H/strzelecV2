@@ -38,6 +38,7 @@
 
 .section-icons_wrapper-element{
 	width: 20vw;
+	height: 20vh;
 	display: inline-block;
 	margin-left: 3vw;
 	float: left;
@@ -64,17 +65,9 @@
 	transform: translateZ(0);
 }
 
-.section-icons_wrapper-element:nth-child(3) .more_text{
-	top: -4.7vh;
-}
-
-.section-icons_wrapper-element:nth-child(4) .more_text{
-	top: -4.7vh;
-}
-
 .section-icons_wrapper-element:hover .more_text{
 	font-size: 2.5vh;
-	top: 0px;
+	top: 4vh;
 }
 
 .section-icons_wrapper-element:hover .more_description{
@@ -93,6 +86,8 @@
 	margin-top: 0.5vh;
 	opacity: 0;
 	transition: 0.8s;
+	position: relative;
+	top: -4vh;
 }
 
 .more_text{
@@ -101,7 +96,7 @@
 	font-size: 2vh;
 	transition: 0.8s;
 	position: relative;
-	top: -2.7vh;
+	top: 0vh;
 }
 
 .section-text_wrapper{
