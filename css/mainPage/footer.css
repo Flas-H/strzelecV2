@@ -1,0 +1,92 @@
+#section4{
+	height: 30vh;
+	width: 100vw;
+	background-color:#ffffff ;
+	z-index: 5;
+	top: 70vh;
+	box-shadow: 1px 1px 40px 30px white;
+	top: 130vh;
+}
+
+.footer-icons_wrapper{
+	width: 80vw;
+	height: 20vh;
+	margin-left: 10vw;
+	margin-top: 3vh;
+}
+
+.footer-icon{
+	float: left;
+	width: 13vw;
+	height: 100%;
+	margin-right: 3vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+#footer-yt{
+	background-image: url("../../asset/footer/youtube.ico");
+	filter: drop-shadow(1px 1px 10px rgb(211, 35, 34));
+}
+
+#footer-facebook{
+	background-image: url("../../asset/footer/facebook.png");
+	filter: drop-shadow(1px 1px 10px rgb(71, 88, 147));
+}
+
+#footer-instagram{
+	background-image: url("../../asset/footer/instagram.png");
+	filter: drop-shadow(1px 1px 10px rgb(94, 73, 64));
+}
+
+#footer-emblem{
+	background-image: url("../../asset/footer/main_logo.png");
+	filter: drop-shadow(1px 1px 10px rgb(0, 80, 0));
+	height: 17vh;
+}
+
+#footer-kg{
+	background-image: url("../../asset/footer/kg_logo.png");
+	filter: drop-shadow(1px 1px 10px rgb(94, 73, 64));
+}
+
+.footer-mail_us{
+	height: 3vh;
+	position: relative;
+	top: 17vh;
+	text-align: center;
+	color: black;
+	text-shadow: 1px 1px 30px black;
+}
+
+.footer-creators{
+	height: 5vh;
+	margin-top: 2vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+.footer-webmaster{
+	width: 20vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	float: left;
+	text-align: left;
+}
+
+.footer-copyright{
+	width: 40vw;
+	float: left;
+	text-align: center;
+}
+
+.footer-photograph{
+	width: 20vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	float: left;
+	text-align: right;
+}

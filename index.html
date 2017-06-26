@@ -7,13 +7,19 @@
 		<link rel = "stylesheet" type = "text/css" href = "css/mainPage/section.css"/>
 		<link rel = "stylesheet" type = "text/css" href = "css/mainPage/background.css"/>
 		<link rel = "stylesheet" type = "text/css" href = "css/mainPage/title-stripe.css"/>
+        <link rel = "stylesheet" type = "text/css" href = "css/mainPage/gallery.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "css/mainPage/footer.css"/>
 	
 		<script src = "jquery/jquery-3.2.1.min.js"></script>
 		<script src = "script/animationController.js"></script>
 		<script src = "script/title-stripe-animation.js"></script>
 		<script src = "script/icons-animation.js"></script>
 		<script src = "script/text-animation.js"></script>
-		
+		<script src = "script/gallery.js"></script>
+		<script src = "script/prop-reset.js"></script>
+		<script src = "script/footer.js"></script>
+		<script src = "script/arrow-animator.js"></script>
+        
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans+Condensed:300,300i,700|Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 	
 	</head>
@@ -31,7 +37,9 @@
 			
 			<div class = "section" id = "section1">
 				<div class = "section_background" id = "section1-background">
+					<div class = "arrow-down"></div>
 					<div class = "section_stripe" id = "section_stripe1">
+						
 						<div class = "section_sectionTitle" id = "section_sectionTitle1">O Nas</div>
 						<div class = "section_icons_wrapper">
 							<!-- statut -->
@@ -57,12 +65,13 @@
 							</div>
 							<!-- about group -->
 							<div class = "section-icons_wrapper-element" id = "section-icons_wrapper-element4">
-								<div class = "icon_text">O</br>Związku</div>
+								<div class = "icon_text">O</br>Strzelcu</div>
 								<div class = "more_text">Więcej</div>
 								<div class = "more_description">Dowiedz się czym jest organizacja do której należymy</div>
 								<div class = "more_arrow"></div>
 							</div>
 						</div>
+				
 					</div>
 				</div>
 			</div>
@@ -71,6 +80,7 @@
 			
 			<div class = "section" id = "section2">
 				<div class = "section_background" id = "section2-background">
+					<div class = "arrow-down"></div>
 					<div class = "section_stripe" id = "section_stripe2">
 						<div class = "section_sectionTitle" id = "section_sectionTitle2">Rekrutacja</div>
 						<div class = "section-text_wrapper">
@@ -95,23 +105,58 @@
 			
 			<div class = "section" id = "section3">
 				<div class = "section_background" id = "section3-background">
+					<div class = "arrow-down"></div> 
 					<div class = "section_stripe" id = "section_stripe3">
 						<div class = "section_sectionTitle" id = "section_sectionTitle3">Galeria</div>
 						<div class = "section_icons_wrapper">
-							<!-- statut -->
-							<div class = "section-icons_wrapper-element"></div>
-							<!-- history -->
-							<div class = "setion-icons_wrapper-element"></div>
-							<!-- for parents -->
-							<div class = "section-icons_wrapper-element"></div>
-							<!-- about group -->
-							<div class = "section-icons_wrapper-element"></div>
+                            <div class = "slide" id = "slide1">
+                                <div class = "slide_side1" id = "slide1_side1"></div>
+                                <div class = "slide_side2" id = "slide1_side2"></div>
+                            </div>
+                            <div class = "slide" id = "slide2">
+                                <div class = "slide_side1" id = "slide2_side1"></div>
+                                <div class = "slide_side2" id = "slide2_side2"></div>
+                            </div>
+                            <div class = "slide" id = "slide3">
+                                <div class = "slide_side1" id = "slide3_side1"></div>
+                                <div class = "slide_side2" id = "slide3_side2"></div>
+                            </div>
+							<div class = "image_big_viewport">
+								<div class = "image_holder"></div>
+								<div class = "image_close_button">Zamknij</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			
 			<!-- section4 - footer -->
+			<div class = "section" id = "section4">
+				<div class = "footer-icons_wrapper">				
+					<a href = "https://www.youtube.com/channel/UCfVlWq-5EMoOlLCUqxtEZhw" target = "_blank">
+						<div class = "footer-icon" id = "footer-yt" ></div>	
+					</a>
+					<a href = "https://www.facebook.com/js4057konin/" target = "_blank">
+						<div class = "footer-icon" id = "footer-facebook"></div>
+					</a>
+					<a href = "https://www.instagram.com/js4057konin/" target = "_blank">
+						<div class = "footer-icon" id = "footer-instagram"></div>
+					</a>
+					<a href = "mailto:js4057konin@gmail.com">
+						<div class = "footer-icon" id = "footer-emblem">
+							<div class = "footer-mail_us">Napisz do nas</div>
+						</div>
+					</a>
+					<a href = "http://www.kgstrzelec.pl/" target = "_blank">
+						<div class = "footer-icon" id = "footer-kg"></div>		
+					</a>
+				</div>
+				<div class = "footer-creators">
+					<div class = "footer-webmaster">Created and designed by<br> <a href = "mailto:tylczynski.piotr@gmail.com?subject=wspolpraca">Piotr Tylczyński</a></div>
+					<div class = "footer-copyright">Copyright &copy 2017<br><a href = "mailto:js4057konin@gmail.com">JS4057</a> & <a href = "mailto:tylczynsk.piotr@gmail.com?subject=wspolpraca">Piotr Tylczyński</a></div>
+					<div class = "footer-photograph">All photos was taken by<br><a href = "mailto:matszc23@gmail.com?subject=wspolpraca">Mateusz Szcześniak</a></div>
+				</div>
+			</div>	
 		</div>
 	
 	</body>
